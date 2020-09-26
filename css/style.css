@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+h4{
+    background-color: seagreen;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: right;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+.header1, .header2, .header3{
+    position: relative;
+    top: 22px;
+}
+p{
+    background-color: salmon;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4{
+        float: left;
+        width: 33%;
+
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6{
+        float: left;
+        width: 50%;
+    }
+    .col-md-12{
+        float: left;
+        width: 105.5%;
+        position: relative;
+        right: 23px;
+    }
+
+}
