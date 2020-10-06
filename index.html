@@ -1,26 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 2 test solution</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Module 3 test</title>
+    <!-- ARCHIVOS CSS BOOTSTRAP 4 -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Css styles -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Header</h1>
-    <div>
-        <div class="col-lg-4 col-md-6">
-            <h4 class="header1">Header 1</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque numquam illo suscipit deserunt vero rerum quasi porro sunt, in obcaecati tempora odit impedit quo repellendus non consectetur labore dolorum earum.</p>
+    <!--Navbar-->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+        <div class="container">
+          <a href="#" class="navbar-brand">Food, LLC</a>
+  
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Desplegar menú de navegación">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="menu-principal">
+            <ul class="navbar-nav ml-auto" id="menu-tiles">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-center">Chicken</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-center">Beef</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-center">Sushi</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-lg-4 col-md-6">
-            <h4 class="header2">Header 2</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque numquam illo suscipit deserunt vero rerum quasi porro sunt, in obcaecati tempora odit impedit quo repellendus non consectetur labore dolorum earum.</p>
-        </div>
-        <div class="col-lg-4 col-md-12">
-            <h4 class="header3">Header 3</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque numquam illo suscipit deserunt vero rerum quasi porro sunt, in obcaecati tempora odit impedit quo repellendus non consectetur labore dolorum earum.</p>
-        </div>
-    </div>
+      </nav> <!-- End of navbar -->
+  
+      <!-- Main content -->
+      <div class="container mt-3">
+          <!-- Header -->
+          <div class="row mb-3">
+              <div class="col text-center">
+                  <h1>Our Menu</h1>
+              </div>
+          </div> <!-- End of header -->
+  
+          <!-- Items -->
+          <div class="row justify-content-between">
+              <!-- Chicken -->
+              <div class="col-12 bg-success mb-5">
+                  <h4 class="text-center">Chicken</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sunt, laborum inventore, voluptatum magnam doloribus eius atque vel repellat accusantium deleniti fugiat modi earum debitis. Expedita rerum esse accusamus ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates praesentium et, nostrum perspiciatis eligendi repellat neque facilis, dolor amet minus quae rerum dignissimos nihil natus deleniti cumque libero saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam quisquam, itaque facere veritatis ab doloremque cum magni optio impedit eos numquam, velit deleniti laborum dolorum molestiae facilis quibusdam consequatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quo dolorum accusamus mollitia corporis voluptates, libero esse sint? Iusto vel totam perferendis, suscipit numquam reiciendis et eveniet tenetur beatae excepturi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta eum, nulla vel autem laudantium delectus eaque consequuntur expedita id tempora exercitationem repudiandae maiores rem quisquam magnam blanditiis, totam reprehenderit. Cumque! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat vitae odio neque voluptas autem impedit natus minus accusamus ab id. Eaque libero perspiciatis debitis, praesentium consequatur repellat ut placeat ad! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptatum quidem repellat fugiat cumque dolores, iste, repellendus suscipit iure ab expedita? Debitis dolorum odio eligendi id fugit saepe reprehenderit sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur necessitatibus nihil iusto, labore explicabo, alias, praesentium fugiat provident consectetur laborum et consequuntur odio veniam libero dolor animi asperiores porro. Ipsum? <a href="index.html">Back to top</a></p>
+              </div> <!-- End of chicken -->
+              <!-- Beef -->
+              <div class="col-12 bg-danger mb-5">
+                  <h4 class="text-center">Beef</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sunt, laborum inventore, voluptatum magnam doloribus eius atque vel repellat accusantium deleniti fugiat modi earum debitis. Expedita rerum esse accusamus ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates praesentium et, nostrum perspiciatis eligendi repellat neque facilis, dolor amet minus quae rerum dignissimos nihil natus deleniti cumque libero saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam quisquam, itaque facere veritatis ab doloremque cum magni optio impedit eos numquam, velit deleniti laborum dolorum molestiae facilis quibusdam consequatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quo dolorum accusamus mollitia corporis voluptates, libero esse sint? Iusto vel totam perferendis, suscipit numquam reiciendis et eveniet tenetur beatae excepturi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta eum, nulla vel autem laudantium delectus eaque consequuntur expedita id tempora exercitationem repudiandae maiores rem quisquam magnam blanditiis, totam reprehenderit. Cumque! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat vitae odio neque voluptas autem impedit natus minus accusamus ab id. Eaque libero perspiciatis debitis, praesentium consequatur repellat ut placeat ad! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptatum quidem repellat fugiat cumque dolores, iste, repellendus suscipit iure ab expedita? Debitis dolorum odio eligendi id fugit saepe reprehenderit sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur necessitatibus nihil iusto, labore explicabo, alias, praesentium fugiat provident consectetur laborum et consequuntur odio veniam libero dolor animi asperiores porro. Ipsum? <a href="index.html">Back to top</a></p>
+              </div> <!-- End of beef -->
+              <!-- Sushi -->
+              <div class="col-12 bg-warning mb-5">
+                  <h4 class="text-center">Sushi</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sunt, laborum inventore, voluptatum magnam doloribus eius atque vel repellat accusantium deleniti fugiat modi earum debitis. Expedita rerum esse accusamus ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptates praesentium et, nostrum perspiciatis eligendi repellat neque facilis, dolor amet minus quae rerum dignissimos nihil natus deleniti cumque libero saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam quisquam, itaque facere veritatis ab doloremque cum magni optio impedit eos numquam, velit deleniti laborum dolorum molestiae facilis quibusdam consequatur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quo dolorum accusamus mollitia corporis voluptates, libero esse sint? Iusto vel totam perferendis, suscipit numquam reiciendis et eveniet tenetur beatae excepturi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta eum, nulla vel autem laudantium delectus eaque consequuntur expedita id tempora exercitationem repudiandae maiores rem quisquam magnam blanditiis, totam reprehenderit. Cumque! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat vitae odio neque voluptas autem impedit natus minus accusamus ab id. Eaque libero perspiciatis debitis, praesentium consequatur repellat ut placeat ad! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptatum quidem repellat fugiat cumque dolores, iste, repellendus suscipit iure ab expedita? Debitis dolorum odio eligendi id fugit saepe reprehenderit sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur necessitatibus nihil iusto, labore explicabo, alias, praesentium fugiat provident consectetur laborum et consequuntur odio veniam libero dolor animi asperiores porro. Ipsum?  <a href="index.html">Back to top</a></p>
+              </div> <!-- End of sushi -->
+          </div> <!-- End of items -->
+      </div> <!-- End of main content -->
+
+
+      <!-- Bootstrap js -->
+     <script src="js/jquery-3.3.1.min.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
